@@ -1,3 +1,4 @@
+import AppRoutes from './app-routes'
 import './App.css'
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
   return (
     <>
      
-      <h1 className='text-3xl'>Vite + React</h1>
+      <AppRoutes/>
       
     </>
   )

@@ -57,3 +57,8 @@ git checkout main               # switch to main
 git pull origin main            # make sure main is up to date
 git merge new-branch-name       # merge your branch into main
 git push origin main            # push the updated main to GitHub
+
+
+# ------------- install react-router
+
+npm i react-router
