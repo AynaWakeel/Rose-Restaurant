@@ -33,3 +33,27 @@ export default defineConfig({
 ## --------------------- run then test
 
 npm run dev
+
+
+## ----------------------- i have created a repo without readme file then 
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AynaWakeel/Rose-Restaurant.git
+git push -u origin main
+
+## ----------------------- how to create new branch and push code
+
+git add .
+git commit -m "Your commit message"
+git push -u origin new-branch-name
+
+
+## ---------------------- now pull code into main branch
+
+git checkout main               # switch to main
+git pull origin main            # make sure main is up to date
+git merge new-branch-name       # merge your branch into main
+git push origin main            # push the updated main to GitHub
