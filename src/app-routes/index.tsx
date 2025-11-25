@@ -1,27 +1,27 @@
-import React from "react"
-import { Route, Routes } from "react-router"
-import Home from "../pages/home"
-import About from "../pages/about"
-import Experience from "../pages/experiences"
-import Navbar from "../components/navbar"
-import Footer from "../components/footer"
+// // import { Route, Routes } from "react-router"
+// import Home from "../pages/home"
+// // import Footer from "../components/footer"
 
-const AppRoutes = () => {
-  return (
-    <div>
+// const AppRoutes = () => {
+//   return (
+//     <>
 
-        <Navbar/>
 
-        <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/about" element={<About/>}/>
-            <Route path="/experience" element={<Experience/>}/>
-        </Routes>
+//      <div className="">
 
-        <Footer/>
+//       <Home/>
+//      </div>
 
-    </div>
-  )
-}
+       
 
-export default AppRoutes
+//         {/* <Routes>
+//             <Route path="/" element={<Home/>}/>          
+//         </Routes> */}
+
+//         {/* <Footer/> */}
+
+//     </>
+//   )
+// }
+
+// export default AppRoutes

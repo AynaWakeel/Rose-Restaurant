@@ -1,8 +1,21 @@
-import React from 'react'
+import AboutUs from "../../components/about"
+import Details from "../../components/details"
+import Features from "../../components/features"
+import Footer from "../../components/footer"
+import Hero from "../../components/hero"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      
+      <Hero/>
+      <AboutUs/>
+      <Features/>
+      <Details/>
+      <Footer/>
+
+
+    </>
   )
 }
 
