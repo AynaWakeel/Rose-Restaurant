@@ -41,7 +41,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/AynaWakeel/Rose-Restaurant.git
+git remote add origin https://github.com/AynaWakeel/Bootslander-one-page.git
 git push -u origin main
 
 ## ----------------------- how to create new branch and push code
@@ -57,3 +57,8 @@ git checkout main               # switch to main
 git pull origin main            # make sure main is up to date
 git merge new-branch-name       # merge your branch into main
 git push origin main            # push the updated main to GitHub
+
+
+# ------------- install react-router
+
+npm i react-router
