@@ -1,11 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 :root {
   --raleway-family: "Raleway", sans-serif;
   --Poppins-family:  "Poppins", sans-serif;
+  --Roboto-family:  "Roboto", sans-serif;
 }
 
 .raleway {
@@ -14,4 +16,47 @@
 
 .poppins {
   font-family: var(--Poppins-family);
+}
+
+.roboto {
+  font-family: var(--Roboto-family);
+}
+
+@keyframes up-down {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+/* WAVE ANIMATIONS */
+@keyframes move-forever-1 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-60px); }
+}
+
+@keyframes move-forever-2 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-40px); }
+}
+
+@keyframes move-forever-3 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-20px); }
+}
+
+.wave1 use {
+  animation: move-forever-1 10s linear infinite lternate-reverse both;
+  animation-delay: -2s;
+}
+
+.wave2 use {
+  animation: move-forever-2 8s linear infinite alternate-reverse both;
+  animation-delay: -2s;
+}
+
+.wave3 use {
+  animation: move-forever-3 6s linear infinite alternate-reverse both;
+  animation-delay: -2s;
 }

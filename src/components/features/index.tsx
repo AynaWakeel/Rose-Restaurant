@@ -10,7 +10,7 @@ import { VscSymbolMethod } from 'react-icons/vsc'
 const Features = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-3 py-5 xl:px-28 xl:py-16 bg-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 py-5 px-16 md:px-10 md:py-12 lg:px-14 xl:px-28 xl:py-16 bg-white">
        <div className="group flex justify-start items-center gap-3 border border-zinc-300 p-5 hover:border-[#1ACC8D]">
           <div><BsEye className='text-4xl text-yellow-300'/></div>
           <h4 className="text-[#040677] group-hover:text-[#1ACC8D] text-lg font-medium">Lorem ipsum</h4>
