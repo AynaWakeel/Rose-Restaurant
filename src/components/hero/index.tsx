@@ -1,7 +1,6 @@
 import cover from '../../assets/images/10002.jpg'
 import Navbar from '../navbar'
 import Mobile from '../../assets/images/10003.png'
-import wave from '../../assets/images/10001.svg'
 import { IoCaretForwardCircleOutline } from 'react-icons/io5'
 
 const Hero = () => {
@@ -17,7 +16,7 @@ const Hero = () => {
       <div style={background}>
         <Navbar />
         <div className="bg-[#1A1469]/95 relative">
-          <div className=' w-full flex flex-col lg:flex-row justify-between items-center gap-12 px-4 py-36 xl:px-28'>
+          <div className=' w-full flex flex-col-reverse lg:flex-row justify-between items-center gap-12 px-4 py-36 xl:px-28'>
             <div className='w-full lg:w-1/2 flex flex-col justify-start gap-8'>
               <h1 className='text-zinc-300 font-bold text-5xl/14 tracking-wide raleway'>Build Your Landing Page With <span className='text-white border-b-4 border-[#1ACC8D]'>Bootslander</span></h1>
               <p className='text-[22px] font-medium leading-8 text-zinc-300'>We are team of talented designers making websites with Bootstrap rftgyhjk dfghj frtgyhuj rdftgyh</p>
@@ -37,7 +36,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute w-full h-20 bottom-0 left-0 z-10">
+        <div className="absolute w-full h-20 bottom-0 xl:bottom-9 left-0 z-10">
           <svg
             className="w-full"
             xmlns="http://www.w3.org/2000/svg"
