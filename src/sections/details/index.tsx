@@ -9,8 +9,8 @@ const Details = () => {
     return (
         <>
 
-            <div className="py-5 px-16 md:px-10 lg:px-14 xl:px-28 xl:py-16 bg-white">
-                <div className="pb-6">
+            <div className="py-5 px-16 md:px-10 md:py-12 lg:px-14 xl:px-28 xl:py-16 bg-white">
+                <div data-aos="fade-up"  data-aos-duration="1000" className="pb-6">
                     <div className="flex justify-start items-center gap-2">
                         <h5 className="text-base font-normal tracking-wider uppercase text-zinc-400">Details</h5>
                         <span className="w-40 h-1 border-b border-green-500"></span>
@@ -20,8 +20,8 @@ const Details = () => {
 
                 <div className="flex flex-col gap-14 lg:gap-6 xl:gap-20 pt-8">
                     <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-6 w-full'>
-                        <div><img src={img1} alt="img" className='w-[500px] md:w-[550px]'/></div>
-                        <div className='w-full lg:w-4/5 xl:w-3/5 xl:pl-7'>
+                        <div data-aos="zoom-out"  data-aos-duration="1000"  data-aos-delay="300"><img src={img1} alt="img" className='w-[500px] md:w-[550px]'/></div>
+                        <div data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="400" className='w-full lg:w-4/5 xl:w-3/5 xl:pl-7'>
                             <h4 className="text-2xl raleway font-bold text-[#040677] pb-3 ">Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h4>
                             <p className="text-base font-normal leading-6 text-zinc-800 italic pb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                            <ul>
@@ -32,28 +32,28 @@ const Details = () => {
                         </div>
                     </div>
                     <div className='flex flex-col lg:flex-row justify-between items-center gap-6 w-full'>
-                        <div className='w-full lg:w-4/5 xl:w-3/5 pr-7'>
+                        <div data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="800" className='w-full lg:w-4/5 xl:w-3/5 xl:pr-7'>
                             <h4 className="text-2xl raleway font-bold text-[#040677] pb-3 ">Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h4>
                             <p className="text-base font-normal leading-6 text-zinc-800 italic pb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <p className="text-base font-normal leading-6 text-zinc-800 italic text-justify">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
-                        <div><img src={img2} alt="img" className='w-[550px]'/></div>
+                        <div data-aos="zoom-out"  data-aos-duration="1000"  data-aos-delay="500"><img src={img2} alt="img" className='w-[550px]'/></div>
                     </div>
-                    <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-6 w-full'>
-                        <div><img src={img3} alt="img" className='w-[500px] lg:w-[550px]'/></div>
-                        <div className='w-full lg:w-4/5 xl:w-3/5 pl-7'>
+                    <div data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="600"  className='flex flex-col-reverse lg:flex-row justify-between items-center gap-6 w-full'>
+                        <div data-aos="zoom-out"  data-aos-duration="1000"  data-aos-delay="200"><img src={img3} alt="img" className='w-[500px] lg:w-[550px]'/></div>
+                        <div className='w-full lg:w-4/5 xl:w-3/5 xl:pl-7'>
                             <h4 className="text-2xl raleway font-bold text-[#040677] pb-3 ">Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h4>
                             <p className="text-base font-normal leading-6 text-zinc-800 italic pb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <p className="text-base font-normal leading-6 text-zinc-800 italic text-justify">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
                     </div>
-                    <div className='flex flex-col lg:flex-row justify-between items-center gap-6 w-full'>
-                        <div className='w-full lg:w-4/5 xl:w-3/5 pr-7'>
+                    <div data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="400"  className='flex flex-col lg:flex-row justify-between items-center gap-6 w-full'>
+                        <div className='w-full lg:w-4/5 xl:w-3/5 xl:pr-7'>
                             <h4 className="text-2xl raleway font-bold text-[#040677] pb-3 ">Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h4>
                             <p className="text-base font-normal leading-6 text-zinc-800 italic pb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <p className="text-base font-normal leading-6 text-zinc-800 italic text-justify">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                         </div>
-                        <div><img src={img4} alt="img" className='w-[500px] lg:w-[550px]'/></div>
+                        <div data-aos="zoom-out"  data-aos-duration="1000"  data-aos-delay="200"><img src={img4} alt="img" className='w-[500px] lg:w-[550px]'/></div>
                     </div>
 
                 </div>
