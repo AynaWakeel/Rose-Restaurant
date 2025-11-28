@@ -37,7 +37,7 @@ const Clients = () => {
            
           >
             <SwiperSlide>
-              <div className='w-full px-10'>
+              <div data-aos="fade-up"  data-aos-duration="1000"  data-aos-delay="400"  className='w-full px-10'>
                 <div className='flex flex-col justify-center items-center gap-0'>
                   <span className='w-28 h-28 bg-[#2C306B] rounded-full flex justify-center items-center mb-4'>
                     <img src={client1} alt='photo' className='rounded-full w-25 h-25' />

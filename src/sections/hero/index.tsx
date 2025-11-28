@@ -1,9 +1,14 @@
 import cover from '../../assets/images/10002.jpg'
-import Navbar from '../navbar'
+import Navbar from '../../components/navbar'
 import Mobile from '../../assets/images/10003.png'
 import { IoCaretForwardCircleOutline } from 'react-icons/io5'
 
-const Hero = () => {
+interface Props {
+  scrollToSection:(ref: React.RefObject<HTMLDivElement>) => void;
+  refs:any;
+}
+
+const Hero:React.FC<Props> = ({scrollToSection,refs}) => {
 
   const background = {
     backgroundImage: `url(${cover})`,
@@ -14,8 +19,11 @@ const Hero = () => {
     <>
 
       <div style={background}>
-        <Navbar />
-        <div className="bg-[#1A1469]/95 relative">
+        <Navbar 
+        refs={refs}
+        scrollToSection={scrollToSection}
+        />
+        <div ref={refs.heroRef} className="bg-[#1A1469]/95 relative">
           <div className=' w-full flex flex-col-reverse lg:flex-row justify-between items-center gap-12 px-4 py-36 xl:px-28'>
             <div className='w-full lg:w-1/2 flex flex-col justify-start gap-8'>
               <h1 className='text-zinc-300 font-bold text-5xl/14 tracking-wide raleway'>Build Your Landing Page With <span className='text-white border-b-4 border-[#1ACC8D]'>Bootslander</span></h1>
@@ -36,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute w-full h-20 bottom-0 xl:bottom-9 left-0 z-10">
+        <div className="hidden xl:block absolute w-full h-20 bottom-0 left-0 z-10">
           <svg
             className="w-full"
             xmlns="http://www.w3.org/2000/svg"
